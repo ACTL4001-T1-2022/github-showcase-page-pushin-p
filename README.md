@@ -1,6 +1,34 @@
 # Team Pushin-P
 Contributors: Raphael Tay, Romman Ahmend, Gurkanwal Singh, Jason Tu, Dilmith Wickramanayake
 
+# Table of Contents
+- [Team Pushin-P](#team-pushin-p)
+- [Project Outline](#project-outline)
+- [Team Selection](#team-selection)
+    + [Data Analysis Methods](#data-analysis-methods)
+    + [Significant Characteristics](#significant-characteristics)
+    + [Model Selection](#model-selection)
+    + [Considerations & Justifications](#considerations-&-justifications)
+- [Economic Impact](#economic-impact)
+- [Implementation Plan](#implementation-plan)
+      - [Implementation Timeline](#implementation-timeline)
+    + [Team Selection](#team-selection-1)
+    + [Financial Performance](#financial-performance)
+    + [Economy](#economy)
+- [Risk Considerations](#risk-considerations)
+  * [Interest Rate and Inflation Fluctuations](#interest-rate-and-inflation-fluctuations)
+  * [Competition Fines](#competition-fines)
+  * [Retention Rate of Players](#retention-rate-of-players)
+  * [Reputational Risk](#reputational-risk)
+- [Assumptions and Data Limitations](#assumptions-and-data-limitations)
+- [Risk and Risk Mitigation](#risk-and-risk-mitigation)
+    + [Interest Rate and Inflation Fluctuations](#interest-rate-and-inflation-fluctuations-1)
+    + [Competition Fines](#competition-fines-1)
+    + [Retention Rate of Players](#retention-rate-of-players-1)
+    + [Reputational Risk](#reputational-risk-1)
+    + [Sensitivity Impact](#sensitivity-impact)
+- [References](#references)
+
 # Project Outline
 Football is an internationally recognised sport that crosses all ethnic and religious boundaries over the world. This report explores how Rarita, a country that wishes to qualify for the FSA League within 5 years in the “world of international football”. It explores the project’s objectives of creating a competitive national football team through data exploration and manipulation, to best optimise the probability of qualification through Monte Carlo simulation measures. Moreover, it details how the successful completion of the national football brand will affect Rarita’s economy over the next 10 years through a boost in global visibility and recognition of being a competitive team. However, assumptions about the model are prevalent and are also explored in this report. Moreover, the report also drafts an implementation timeline to rollout objectives of building and sustaining a competitive team and using this success to grow Rarita’s global visibility and economy.
 
