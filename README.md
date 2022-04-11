@@ -5,6 +5,25 @@ Contributors: Raphael Tay, Romman Ahmend, Gurkanwal Singh, Jason Tu, Dilmith Wic
 Football is an internationally recognised sport that crosses all ethnic and religious boundaries over the world. This report explores how Rarita, a country that wishes to qualify for the FSA League within 5 years in the “world of international football”. It explores the project’s objectives of creating a competitive national football team through data exploration and manipulation, to best optimise the probability of qualification through Monte Carlo simulation measures. Moreover, it details how the successful completion of the national football brand will affect Rarita’s economy over the next 10 years through a boost in global visibility and recognition of being a competitive team. However, assumptions about the model are prevalent and are also explored in this report. Moreover, the report also drafts an implementation timeline to rollout objectives of building and sustaining a competitive team and using this success to grow Rarita’s global visibility and economy.
 
 # Team Selection
+Although the dataset presented numerous factors of player skills and attributes, data exploration and modelling indicated that pass completion is most correlated with the highest probability of winning in a competitive league. 
+### Exploratory Data Analysis
+There were some key trends in the data when analysing specific metrics by player position. We noticed a unique clustering behaviour for selected players (see appendix 4). This aligned with our hypothesis, that consistency and reliable results were rewarded with team selection. Therefore, looking to select players who neither outperformed nor underperformed significantly enabled finding the location of good consistent performers.
+![image](![image](https://user-images.githubusercontent.com/102013523/162671890-6a21e63a-60f6-415d-bb28-abed49881d00.png "% Holding Tackles")
+#### Figure 1: Clustering pattern of selected players vs universe
+
+### Data Analysis Methods
+Furthermore, omitting modelling methods that did not perform cluster-based analysis particularly well such as linear and polynomial regression, the focus was placed on gradient boosting, random forest and principal component analysis. K-Nearest-Neighbours was also considered, but as it only analyses two factors at a time, we also deemed it unsuitable for our purposes as there are multiple factors to consider.
+
+### Significant Characteristics
+Since soccer is a team sport, we sought to identify patterns or groupings of factors that contribute to that elusive winning team formula. As a player’s position on the pitch affects their role in a match, we decided to isolate and identify trends of selected players by their main or preferred pitch positions. This analysis showed that, unsurprisingly, the most important skills for each position were dependent on their specific roles in the squad. 
+
+![image](https://user-images.githubusercontent.com/102013523/162672036-82d796fe-f808-409d-a175-43e8494553c6.png "Importance 1")
+#### Figure: Variables of importance for FWs, notice most are defensive stats because FWs rarely take up much of the defensive burden.
+
+
+
+
+
 
 # Economic Impact
 
