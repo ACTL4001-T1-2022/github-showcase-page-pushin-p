@@ -49,7 +49,7 @@ Since soccer is a team sport, we sought to identify patterns or groupings of fac
 #### Figure 5: Important variables for Goalkeeper selection
 ![image](https://user-images.githubusercontent.com/102013523/162672513-43b38b78-4dac-4965-960f-a4943df13b16.png)
 
-The above charts show the most important characteristics for each pitch position. Noticeably, passing statistics seem to hold the most importance.
+The above charts show the most important characteristics for each pitch position. Noticeably, passing statistics seem to hold the most importance out of all the categories.
 
 ### Model Selection
 After running through the various models such as bagging, principal component analysis (PCA), random forest and gradient boosting, we identified that gradient boosting was the most accurate model at classifying players into selected and not selected as seen in table below. Additionally, we noticed an imbalance in the data for the response. As imbalanced data introduces skewness into the model, we eliminated this bias by conducting both random over- and under-sampling to balance our dataset. 
