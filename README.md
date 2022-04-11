@@ -57,6 +57,30 @@ The above charts show the most important characteristics for each pitch position
 ### Model Selection
 After running through the various models such as bagging, principal component analysis (PCA), random forest and gradient boosting, we identified that gradient boosting was the most accurate model at classifying players into selected and not selected as seen in table below. Additionally, we noticed an imbalance in the data for the response. As imbalanced data introduces skewness into the model, we eliminated this bias by conducting both random over- and under-sampling to balance our dataset. 
 
+### Players Selected from Model
+
+| Player | Position | Salary |
+| :-: | :-: | :-: |
+| J. Dahiru | Defender | ∂ 19,090,000 |
+| A. Núñez | Defender | ∂ 22,730,000 | 
+| Y. Thungu| Defender | ∂ 26,070,000 | 
+| K. Nalwanga | Defender | ∂ 5,110,000 | 
+| T. Larsson | Defender | ∂ 1,140,000 | 
+| E. Afolabi | Forward | ∂ 3,190,000 |
+| A. Mtambo | Defender | ∂ 6,520,000 | 
+| T. Monteiro | Defender | ∂ 4,120,000 | 
+| H. Makumbi | Forward | ∂ 7,430,000 | 
+| Z. Cumbe | Midfielder | ∂ 7,250,000 | 
+| D. Lehner | Midfielder | ∂ 6,730,000 |
+| P. Rabiu | Midfielder | ∂ 7,280,000 |
+| A. Kyarikunda | Forward | ∂ 8,870,000 |
+| Z. Zziwa | Forward | ∂ 9,120,000 |
+| D. Baah | Midfielder | ∂ 3,610,000 |
+| F. Ajio | Forward | ∂ 1,990,000 |
+| D. Mattila | Midfielder | ∂ 18,500,000 |
+| E. Nakanjako | Midfielder | ∂ 10,750,000 |
+| W. Nasiru | Goalkeeper | ∂ 22,410,000 |
+
 ![Screenshot 2022-04-11 154807](https://user-images.githubusercontent.com/102013523/162672684-71b28ea3-240f-4090-81f5-7a7c95a73f62.png)
 #### Figure 6: Accuracy against test set for various models
 
