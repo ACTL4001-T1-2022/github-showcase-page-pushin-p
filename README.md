@@ -2,7 +2,6 @@
 Contributors: Raphael Tay, Romman Ahmend, Gurkanwal Singh, Jason Tu, Dilmith Wickramanayake
 
 # Table of Contents
-- [Team Pushin-P](#team-pushin-p)
 - [Project Outline](#project-outline)
 - [Team Selection](#team-selection)
     + [Data Analysis Methods](#data-analysis-methods)
