@@ -9,7 +9,7 @@ Although the dataset presented numerous factors of player skills and attributes,
 ### Exploratory Data Analysis
 There were some key trends in the data when analysing specific metrics by player position. We noticed a unique clustering behaviour for selected players (see appendix 4). This aligned with our hypothesis, that consistency and reliable results were rewarded with team selection. Therefore, looking to select players who neither outperformed nor underperformed significantly enabled finding the location of good consistent performers.
 
-![image](![image](https://user-images.githubusercontent.com/102013523/162671890-6a21e63a-60f6-415d-bb28-abed49881d00.png "% Holding Tackles")
+![Screenshot 2022-04-11 154415](https://user-images.githubusercontent.com/102013523/162672296-7deee242-2889-417a-b7d8-a8ae387ba4cd.png)
 #### Figure 1: Clustering pattern of selected players vs universe
 
 ### Data Analysis Methods
