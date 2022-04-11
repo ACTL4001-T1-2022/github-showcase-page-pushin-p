@@ -122,6 +122,7 @@ Further, the increased broadcast revenue reflects the increased global visibilit
 Global visibility will be further monitored using the metric of social media followers, with Facebook followers expected to hit the top team current average of 65 million, and Instagram followers to reach 49.6 million by 2024, in line with all forecasts of Rarita truly establishing itself as a top team by then. Every two years, follower numbers will be reviewed, to determine whether they match expectations of growing in line with attendance growth. 
 
 # Assumptions and Data Limitations
+
 | Data Limitation | Assumptions | Justification |
 | :-: | :-: | :-: |
 | Only provided data on tournament rankings for 2 years (2020 and 2021), but economic data is from 2016-2020 | Assumed that the top 10 teams across the 2 years were also the top 5 teams across the 2016-2020 period. | Allows analysis of the economic impact of being a top 10 team. Without assumption, there is no link between tournament rankings and economic data. | 
