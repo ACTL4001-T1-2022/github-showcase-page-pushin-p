@@ -1,5 +1,5 @@
 # Team Pushin-P
-Contributors: Raphael Tay, Romman Ahmend, Gurkanwal Singh, Jason Tu, Dilmith Wickramanayake
+Contributors: Raphael Tay, Romman Ahmed, Gurkanwal Singh, Jason Tu, Dilmith Wickramanayake
 
 # Table of Contents
 - [Project Outline](#project-outline)
