@@ -7,7 +7,7 @@ Contributors: Raphael Tay, Romman Ahmend, Gurkanwal Singh, Jason Tu, Dilmith Wic
     + [Data Analysis Methods](#data-analysis-methods)
     + [Significant Characteristics](#significant-characteristics)
     + [Model Selection](#model-selection)
-    + [Considerations & Justifications](#considerations-&-justifications)
+    + [Considerations & Justifications](#considerations-and-justifications)
 - [Economic Impact](#economic-impact)
 - [Implementation Plan](#implementation-plan)
       - [Implementation Timeline](#implementation-timeline)
