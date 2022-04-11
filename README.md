@@ -102,6 +102,33 @@ Mitigant: Conduct regular surveys with fans to measure engagement and satisfacti
 | No explanation given for negative values for statistics such as: 	Goals & Shots, Penalties,	Key Passes & Assists,	1/3 passes,	Tackles, Pressures & Blocks,Saves| Goals & Shots: negative due to subtracting own goals and shots on own goal, Penalties: negative due to subtracting penalties conceded by a player, Key Passes & Assists: negative due to subtracting passes that directly lead to an opposition goal, 1/3 passes: negative due to subtracting | Without an explanation of these strangely negative statistics, the figures cannot be analysed, which would severely limit the pool of players that we could test our model on. |
 | Complete data only on 2021 Tournament statistics | 2021 Tournament statistics (and related league statistics) are accurate reflections of players’ abilities. | Without any indications of past performance, there is no way to determine if these statistics reflect normal playing ability, or a momentary form improvement. The assumption allows us to analyse players’ stats equally. |
 
+# Risk and Risk Mitigation
+
+![image](https://user-images.githubusercontent.com/102013523/162673124-c8151e50-ec0e-4568-b99c-bf8fe0e1e1fc.png)
+### Interest Rate and Inflation Fluctuations 
+By assuming the Raritan government conducts monetary policy to bound inflation within comfortable levels, it is doubtless there may be circumstances where this is unsuccessful. Interest rates and inflation are inversely proportional to each other and as such there will be trade-offs of loan players with our funds. Our funds may not have the same purchasing power as in the past and moreover, interest rates may drive up the fee payments on these loans. 
+
+Mitigant: Hedge against inflation through investing our funds in asset classes that track an index with a rate higher than the inflation level. 
+
+### Competition Fines 
+In the international spotlight, Rarita will likely encounter fines for breach of guidelines and regulations within the international sporting organisation. Fines issued may cause a backlog of future objectives and bottleneck the successful plan of being competitive within 10 years. 
+
+Mitigant: To mitigate the impact of fines, Rarita may consider using buffers in their budget to offset potential fines. They can hold reserves with a certain proportion to account for such event. 
+
+### Retention Rate of Players
+To develop Rarita’s team dynamics and competitiveness over their tenure in the league, it is preferred that player retention is long term and a relatively stable figure each year. In its early formation, retaining players that are well synergised is beneficial to reducing time spent on team building, as well as strengthening these players’ dynamics within the team over time. Since it is unlikely that the team will win within the first few years, focusing on developing strong players will provide a competitive edge for Rarita in the long term. 
+
+Mitigant: Provide monetary incentives from the budget to well-synergised players to be retained for the following league year.  
+
+### Reputational Risk
+Rarita’s reputation within the sporting community can be influenced by whether it is successful or not in the league. Reputational risk can be determined by whether Rarita’s reputation exceeds its true character, how much external beliefs and expectations change, and quality of internal coordination (Eccles, Newquist and Schatz, 2007). Moreover, reputational damage to the organisation may cause decreased funding and weaken traction of potential tourism and economic benefit in the future. 
+
+Mitigant: Conduct regular surveys with fans to measure engagement and satisfaction with the organisation. Close gaps of misconceptions through creating a public relations team to coordinate media and moderate stakeholders’ perceptions of the business. Align internal decisions and objectives made by different business units, as one assumption of another business unit can cause reputational damage when that goal is not met. 
+
+### Sensitivity Impact
+The aforementioned risks have varying sensitivities to Rarita’s overall ‘competitiveness’. Changes in interest rates and inflation will have a limited impact on the team’s success within the tournament, mainly affecting the initial stages of player salaries. Competition fines may have a moderate impact, affecting both the budget of the Rarita’s team, as well as influencing individual player selection to the team if the tournament inhibits players that receive too many fines. Retention rate similarly has a moderate impact, as if ‘competitive’ players decided to not play for Rarita in the subsequent tournament year, the overall team’s competitiveness may diminish. Lastly, reputational risk has a large influence on the team’s success as it may place pressure on the overall team’s motivation to succeed in the tournament.
+
+
 # References
 AP NEWS. 2022. World Cup winners can expect GDP boost to economy. [online] Available at: <https://apnews.com/article/soccer-sports-international-soccer-economy-world-cup-a9287f7aee7f2b7fbd35cf5a36b6168d> [Accessed 28 March 2022].
 
