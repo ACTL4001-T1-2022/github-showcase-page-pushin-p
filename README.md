@@ -57,6 +57,8 @@ The above charts show the most important characteristics for each pitch position
 ### Model Selection
 After running through the various models such as bagging, principal component analysis (PCA), random forest and gradient boosting, we identified that gradient boosting was the most accurate model at classifying players into selected and not selected as seen in table below. Additionally, we noticed an imbalance in the data for the response. As imbalanced data introduces skewness into the model, we eliminated this bias by conducting both random over- and under-sampling to balance our dataset. 
 
+![Screenshot 2022-04-11 154807](https://user-images.githubusercontent.com/102013523/162672684-71b28ea3-240f-4090-81f5-7a7c95a73f62.png)
+#### Figure 6: Accuracy against test set for various models
 ### Players Selected from Model
 
 | Player | Position | Salary |
@@ -81,8 +83,6 @@ After running through the various models such as bagging, principal component an
 | E. Nakanjako | Midfielder | ∂ 10,750,000 |
 | W. Nasiru | Goalkeeper | ∂ 22,410,000 |
 
-![Screenshot 2022-04-11 154807](https://user-images.githubusercontent.com/102013523/162672684-71b28ea3-240f-4090-81f5-7a7c95a73f62.png)
-#### Figure 6: Accuracy against test set for various models
 
 ### Considerations & Justifications
 A major consideration in the model selection process was the interpretability of results, as specific groupings of factors needed to be identified. Gradient boosting models (GBMs) had a reasonable degree of accuracy, compared to other models, but were weaker than random forests in terms of interpretability. However, as accuracy was a key focus in the selection process, GBMs were preferred. There were also significant limitations to the data, in particular missing information, and the limited amount of historical data made comparisons and benchmarking of results difficult. As such, it represented a huge consideration, in particular the specific treatments for each section of missing data.
