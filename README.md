@@ -103,23 +103,6 @@ The essential measure of financial performance is to determine if, by the end of
 Further, the increased broadcast revenue reflects the increased global visibility of Rarita, as this broadcast revenue is increasing as more people around the world tune in to watch the Raritan team play. Additionally, the impact of increased visibility can be seen in increased matchday revenue, with it expected to increase as more tourists come to watch games and pay premium ticket prices. The garnered tourists will require accommodation and services, and are likely to visit other Raritan attractions, thereby boosting the inflow of money across several economic sectors.
 Global visibility will be further monitored using the metric of social media followers, with Facebook followers expected to hit the top team current average of 65 million, and Instagram followers to reach 49.6 million by 2024, in line with all forecasts of Rarita truly establishing itself as a top team by then. Every two years, follower numbers will be reviewed, to determine whether they match expectations of growing in line with attendance growth. 
 
-# Risk Considerations
-## Interest Rate and Inflation Fluctuations 
-By assuming the Raritan government conducts monetary policy to bound inflation within comfortable levels, it is doubtless there may be circumstances where this is unsuccessful. Interest rates and inflation are inversely proportional to each other and as such there will be trade-offs of loan players with our funds. Our funds may not have the same purchasing power as in the past and moreover, interest rates may drive up the fee payments on these loans. 
-Mitigant: Hedge against inflation through investing our funds in asset classes that track an index with a rate higher than the inflation level. 
-
-## Competition Fines 
-In the international spotlight, Rarita will likely encounter fines for breach of guidelines and regulations within the international sporting organisation. Fines issued may cause a backlog of future objectives and bottleneck the successful plan of being competitive within 10 years. 
-Mitigant: To mitigate the impact of fines, Rarita may consider using buffers in their budget to offset potential fines. They can hold reserves with a certain proportion to account for such event. 
-
-## Retention Rate of Players
-To develop Rarita’s team dynamics and competitiveness over their tenure in the league, it is preferred that player retention is long term and a relatively stable figure each year. In its early formation, retaining players that are well synergised is beneficial to reducing time spent on team building, as well as strengthening these players’ dynamics within the team over time. Since it is unlikely that the team will win within the first few years, focusing on developing strong players will provide a competitive edge for Rarita in the long term. 
-Mitigant: Provide monetary incentives from the budget to well-synergised players to be retained for the following league year.  
-
-## Reputational Risk
-Rarita’s reputation within the sporting community can be influenced by whether it is successful or not in the league. Reputational risk can be determined by whether Rarita’s reputation exceeds its true character, how much external beliefs and expectations change, and quality of internal coordination (Eccles, Newquist and Schatz, 2007). Moreover, reputational damage to the organisation may cause decreased funding and weaken traction of potential tourism and economic benefit in the future. 
-Mitigant: Conduct regular surveys with fans to measure engagement and satisfaction with the organisation. Close gaps of misconceptions through creating a public relations team to coordinate media and moderate stakeholders’ perceptions of the business. Align internal decisions and objectives made by different business units, as one assumption of another business unit can cause reputational damage when that goal is not met. 
-
 # Assumptions and Data Limitations
 | Data Limitation | Assumptions | Justification |
 | :-: | :-: | :-: |
