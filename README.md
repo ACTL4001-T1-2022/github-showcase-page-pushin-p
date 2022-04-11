@@ -7,7 +7,7 @@ Contributors: Raphael Tay, Romman Ahmend, Gurkanwal Singh, Jason Tu, Dilmith Wic
     + [Data Analysis Methods](#data-analysis-methods)
     + [Significant Characteristics](#significant-characteristics)
     + [Model Selection](#model-selection)
-    + [Considerations & Justifications](#considerations-and-justifications)
+    + [Considerations and Justifications](#considerations-and-justifications)
 - [Economic Impact](#economic-impact)
 - [Implementation Plan](#implementation-plan)
       - [Implementation Timeline](#implementation-timeline)
@@ -82,7 +82,7 @@ After running through the various models such as bagging, principal component an
 | W. Nasiru | Goalkeeper | ∂ 22,410,000 |
 
 
-### Considerations & Justifications
+### Considerations and Justifications
 A major consideration in the model selection process was the interpretability of results, as specific groupings of factors needed to be identified. Gradient boosting models (GBMs) had a reasonable degree of accuracy, compared to other models, but were weaker than random forests in terms of interpretability. However, as accuracy was a key focus in the selection process, GBMs were preferred. There were also significant limitations to the data, in particular missing information, and the limited amount of historical data made comparisons and benchmarking of results difficult. As such, it represented a huge consideration, in particular the specific treatments for each section of missing data.
 
 # Economic Impact
