@@ -9,7 +9,7 @@ Although the dataset presented numerous factors of player skills and attributes,
 ### Exploratory Data Analysis
 There were some key trends in the data when analysing specific metrics by player position. We noticed a unique clustering behaviour for selected players (see appendix 4). This aligned with our hypothesis, that consistency and reliable results were rewarded with team selection. Therefore, looking to select players who neither outperformed nor underperformed significantly enabled finding the location of good consistent performers.
 
-![Screenshot 2022-04-11 154415](https://user-images.githubusercontent.com/102013523/162672296-7deee242-2889-417a-b7d8-a8ae387ba4cd.png)
+![Screenshot 2022-04-11 154415](https://user-images.githubusercontent.com/102013523/162672376-bbec044e-eedb-40d7-b38c-4d52d72778b2.png "% Holding Tackles")
 #### Figure 1: Clustering pattern of selected players vs universe
 
 ### Data Analysis Methods
@@ -19,14 +19,47 @@ Furthermore, omitting modelling methods that did not perform cluster-based analy
 Since soccer is a team sport, we sought to identify patterns or groupings of factors that contribute to that elusive winning team formula. As a player’s position on the pitch affects their role in a match, we decided to isolate and identify trends of selected players by their main or preferred pitch positions. This analysis showed that, unsurprisingly, the most important skills for each position were dependent on their specific roles in the squad. 
 
 ![image](https://user-images.githubusercontent.com/102013523/162672036-82d796fe-f808-409d-a175-43e8494553c6.png "Importance 1")
-#### Figure: Variables of importance for FWs, notice most are defensive stats because FWs rarely take up much of the defensive burden.
+#### Figure 2: Variables of importance for FWs, notice most are defensive stats because FWs rarely take up much of the defensive burden.
 
+![image](https://user-images.githubusercontent.com/102013523/162672431-89dd8df1-11a1-4b78-af18-878aa9a83fa1.png)
+#### Figure 3: Important variables for Midfield players, notice that most variables are related to passing.
 
+![image](https://user-images.githubusercontent.com/102013523/162672475-7d65399a-e34d-46db-94af-28eb16046789.png)
+#### Figure 4: Variables important in determining selection of Defenders, notice that majority are pass statistics as defenders play a vital role in the build-up of play often sending the ball forward.
 
+![image](https://user-images.githubusercontent.com/102013523/162672513-43b38b78-4dac-4965-960f-a4943df13b16.png)
+#### Figure 5: Important variables for Goalkeeper selection
 
+The above charts show the most important characteristics for each pitch position. Noticeably, passing statistics seem to hold the most importance.
 
+### Model Selection
+After running through the various models such as bagging, principal component analysis (PCA), random forest and gradient boosting, we identified that gradient boosting was the most accurate model at classifying players into selected and not selected as seen in table below. Additionally, we noticed an imbalance in the data for the response. As imbalanced data introduces skewness into the model, we eliminated this bias by conducting both random over- and under-sampling to balance our dataset. 
+
+![Screenshot 2022-04-11 154807](https://user-images.githubusercontent.com/102013523/162672684-71b28ea3-240f-4090-81f5-7a7c95a73f62.png)
+#### Figure 6: Accuracy against test set for various models
+
+### Considerations & Justifications
+A major consideration in the model selection process was the interpretability of results, as specific groupings of factors needed to be identified. Gradient boosting models (GBMs) had a reasonable degree of accuracy, compared to other models, but were weaker than random forests in terms of interpretability. However, as accuracy was a key focus in the selection process, GBMs were preferred. There were also significant limitations to the data, in particular missing information, and the limited amount of historical data made comparisons and benchmarking of results difficult. As such, it represented a huge consideration, in particular the specific treatments for each section of missing data.
 
 # Economic Impact
+Based on the assumption that the team selection would yield a competitive team instantly, the revenue for Football in Rarita was assumed to meet the expected value of the average competitive teams which have been top 10 consistently within 2020 and 2021. Along with the assumption that expenses remain at an equal ratio to revenue as additional revenue will be reinvested within the league, the revenue and expenses projections are displayed in the graph below.
+
+![image](https://user-images.githubusercontent.com/102013523/162672787-e73f3297-2c50-4048-8573-b2a24fdbb289.png)
+#### Figure 7: Revenue & Expenses Forecast over the next 10 years
+
+The NPV Model (Appendix 2C) estimates a net present value of ∂14.2 billion for the project over the next 10 years which would account for around 5% of the 2020 GDP with the implementation of a consistent top 10 Raritan national football team. Hence, although it is difficult to issue a quantifiable link with GDP increase, a self-sufficient football league with a national presence will have positive influences on GDP and GNI per capita as there will be higher fiscal stimulation within the domestic economy as well as global investments.  
+
+There’s a significant correlation between teams that win soccer tournaments or are hosts of tournaments with growth in the economy. Observing historical observations for the World Cup, winners see an “average increase of 1.6%” (AP News, 2022) in GDP compared to the previous year. Also, winning a World cup is known to produce a surge of national pride that influences consumer behaviour. However, the effects of this are often short-term, and is akin to a ‘sugar rush’ for the economy, with the economy contracting in subsequent years. Being the host of the tournament also boosts the GDP due to additional jobs being created for the construction of stadiums and expanded infrastructure. Similarly, hosting only has short term implications as once the tournament ceases, new jobs and construction are no longer in demand, and tourism wanes. Therefore, Rarita should consider a long-term analysis for profitability, by considering the longevity of stadiums, national spirits, as well as international awareness of the host country to boost seasonal tourism. 
+
+![image](https://user-images.githubusercontent.com/102013523/162672852-b4018483-5998-4e62-a274-78c3b94b3384.png)
+#### Figure 8: Population Split between West, East & Central Rarita
+
+As we can see from figure 8, most of the population is located within West Rarita as more than 60% of the total population can be accounted for within Rarita’s West. However, on the other hand, figure 9 depicts that the gross national income for West Rarita is approximately half per capita relative to East Rarita which highlights a major wealth discrepancy between the geographic regions. The introduction of a national football team will lead to higher global visibility and will secure higher investments which will benefit West Rarita specifically with additional employment and income opportunities.
+
+![image](https://user-images.githubusercontent.com/102013523/162672908-3920fe88-8f24-4d02-b189-73498ceeb8cd.png)
+#### Figure 9: GNI Per Capita for each region within Rarita
+
+Furthermore, healthcare spending and the household saving rate can be seen to be similarly proportioned (Appendix 2B) between the regions and both are linked to the state of the economy. Since both household savings rate and health care spending scale with disposable income (equal to GNI), it is appropriate that higher disposable income would yield to higher statistics. As a result, we can assume that the economic boost because of the league’s expansion will benefit to reduce the economic gap between East and West Rarita.
 
 # Implementation Plan
 #### Implementation Timeline
